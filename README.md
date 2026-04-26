@@ -38,7 +38,7 @@ Using ECB, CBC, and CTR modes, the program encrypts the raw pixel data of an ima
 ## Results (Key Insight)
 
 ### ECB Mode (Insecure)
-![ECB](screenshots/ecb_encrypted.png)
+![ECB](images/ecb_encrypted.png)
 
 - Visible patterns from the original image remain  
 - Demonstrates why ECB is insecure for structured data  
@@ -46,7 +46,7 @@ Using ECB, CBC, and CTR modes, the program encrypts the raw pixel data of an ima
 ---
 
 ### CBC Mode
-![CBC](screenshots/cbc_encrypted.png)
+![CBC](images/cbc_encrypted.png)
 
 - Patterns are removed  
 - Output appears randomized  
@@ -54,7 +54,7 @@ Using ECB, CBC, and CTR modes, the program encrypts the raw pixel data of an ima
 ---
 
 ### CTR Mode
-![CTR](screenshots/ctr_encrypted.png)
+![CTR](images/ctr_encrypted.png)
 
 - Also produces randomized output  
 - Behaves like a stream cipher  
