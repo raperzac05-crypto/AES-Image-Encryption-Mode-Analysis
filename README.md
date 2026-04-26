@@ -75,9 +75,14 @@ Using ECB, CBC, and CTR modes, the program encrypts the raw pixel data of an ima
 ```bash
 git clone https://github.com/raperzac05-crypto/aes-image-encryption.git
 cd aes-image-encryption
+```
 
 ### 2. Install dependancies
+```bash
 pip install pycryptodome pillow
+```
 
 ### 3. Run the program
+```bash
 py image_encryption.py
+```
